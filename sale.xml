@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl=" href="sale.xsl"?>
+<!DOCTYPE Saledata [
+<!ELEMENT Saledata (sale*)>
+<!ELEMENT sale (id, name, quantity, price, date)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+]>
+
+<Saledata>
+    <sale>
+        <id>BK001</id>
+        <name>The Girl from the Other Side</name>
+        <quantity>12 เล่ม</quantity>
+        <price>฿1,872</price>
+        <date>2024/01/05</date>
+    </sale>
+    <sale>
+        <id>BK002</id>
+        <name>Who made me a princess</name>
+        <quantity>17 เล่ม</quantity>
+        <price>฿7,038</price>
+        <date>2024/03/12</date>
+    </sale>
+    <sale>
+        <id>BK003</id>
+        <name>BRUTAL คำสารภาพของตำรวจฆาตกร</name>
+        <quantity>24 เล่ม</quantity>
+        <price>฿3,348</price>
+        <date>2024/08/17</date>
+    </sale>
+    <sale>
+        <id>BK004</id>
+        <name>I Reincarnated into an Otome Game as a Villainess With Only Destruction Flags</name>
+        <quantity>18 เล่ม</quantity>
+        <price>฿2,511</price>
+        <date>2024/06/25</date>
+    </sale>
+    <sale>
+        <id>BK005</id>
+        <name>The Fantasie of a Stepmother</name>
+        <quantity>18 เล่ม</quantity>
+        <price>฿6,327</price>
+        <date>2024/11/09</date>
+    </sale>
+</Saledata>

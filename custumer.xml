@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl=" href="customer.xsl"?>
+<!DOCTYPE Listname [
+<!ELEMENT Listname (customer*)>
+<!ELEMENT customer (name, address, tel, email, id)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+]>
+
+<Listname>
+    <customer>
+        <name>Tasir Anghes</name>
+        <address>123 Maple Street, Springfield, IL, 62701, USA</address>
+        <tel>+1-555-123-4567</tel>
+        <email>Tasir@gmail.com</email>
+        <id>1001</id>
+    </customer>
+    <customer>
+        <name>Pellus Termaine</name>
+        <address>456 Oak Avenue, Anytown, TX, 75001, USA</address>
+        <tel>+1-555-234-5678</tel>
+        <email>Pellus@gmail.com</email>
+        <id>1002</id>
+    </customer>
+    <customer>
+        <name>Zedekiah Heint</name>
+        <address>789 Pine Road, Smallville, CA, 90210, USA</address>
+        <tel>+1-555-345-6789</tel>
+        <email>Zedekiah@gmail.com</email>
+        <id>1003</id>
+    </customer>
+    <customer>
+        <name>Gallahan Lombardy</name>
+        <address>654 Birch Boulevard, Hometown, FL, 33101, USA</address>
+        <tel>+1-555-567-8901</tel>
+        <email>Cale@gmail.com</email>
+        <id>1005</id>
+    </customer>
+</Listname>
